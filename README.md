@@ -24,9 +24,9 @@ With this split, the next step was to select the best model for the solution.
 I tried a *Random forest*, a *Decision Tree*, a *Support Vector Machine*, a *Naive Bayes*,  an *XGBoost*, an *Artificila Neural Netowrk* (*ANN*).
 The best results were obtained by *ANN*, created with the *Keras* library. This *ANN* contained four layer, the first three with 50 neurons and the output layer with 5 neurons.
 
-#### Tunning
+Once I had the best model, I had to tune the hyperparameters to achieve the best results. With the grid search, I tried different values for the number of hidden layer neurons, the batch size, the number of epochs, and the weight initialization technique.
 
-#### Final Method
+Operations indicated that the best parameter for *ANN* was to use 150 neurons in each hidden layer, a batch size of 16, perform 50 epochs, and do a normal initialization for the weight.
 
 ## Result
 
