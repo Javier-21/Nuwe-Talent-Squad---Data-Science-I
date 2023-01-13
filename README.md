@@ -30,5 +30,9 @@ Operations indicated that the best parameter for *ANN* was to use 150 neurons in
 
 ## Result
 
+With the tuned *ANN* and split data sets, I trained the model and calculated the **F1 Score (Macro)**, the result was **0.79**.
+
+The final step was to train the model with all the records from the **space_X_train.csv** file and make the predicitions with **space_X_test.csv**. All predictions are saved in a file called **predictions.csv**.
+
 ## License
 - [*Javier Alegre Revuelta*](https://github.com/Javier-21)
